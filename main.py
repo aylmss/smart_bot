@@ -218,9 +218,6 @@ from  telegram.ext import filters
 
 from config import TOKEN
 
-import telebot
-
-bot=telebot.TeleBot(token=TOKEN)
 # t.me/july_smart_bot
 
 async def reply(update: Update, context) -> None:
